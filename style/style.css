@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-    background-color: #bea1a3;
+    background-color: #bea1a398;
     border-radius: 5px;
 }
 
@@ -99,7 +99,7 @@ main img {
         display: block;
         position: absolute;
         width: 100%;
-        top: 70px;
+        top: 100px;
         right: 0px;
         background: rgba(0, 0, 0, .05);
         height: 0px;
@@ -109,7 +109,7 @@ main img {
         overflow-y: hidden;
     }
     #nav.active #menu {
-        height: calc(100vh - 70px);
+        height: calc(100vh - 100px);
         /*height: auto;*/
         visibility: visible;
         overflow-y: auto;
