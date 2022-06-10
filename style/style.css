@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --color01: #ceb0b2
+    --color01: #ceb0b2;
     --color02: black
     --color03:
 }
@@ -9,7 +9,8 @@
 body, ul {
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: var(--color01);
+    max-height: 100vh;
 }
 
 a {
@@ -26,9 +27,9 @@ a:hover {
 #logo {
     margin: 0 -1rem;
     padding: 2rem;
+    font-family: sans-serif;
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 8vw;
     font-variant: small-caps;
     background: #ceb0b2;
 }
@@ -76,11 +77,14 @@ a:hover {
 main {
     background-color: #ceb0b2;
     display: block;
+    max-width: 1000px;
+    min-width: 300px;
     margin: auto;
 }
 
 main img {
-    zoom: 20%;
+    width: 100%;
+    max-width: 600px;
     display: block;
     margin: auto;
 }
@@ -126,7 +130,7 @@ main img {
     }
 
     #hamburger {
-        
+        color: black;
         justify-content: left;
         border-top: 2px solid;
         width: 20px;
