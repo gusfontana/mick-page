@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+:root {
+    --color01: #ceb0b2
+    --color02: black
+    --color03:
+}
+
 body, ul {
     margin: 0px;
     padding: 0px;
-    background-color: #ceb0b2;
+    background-color: black;
 }
 
 a {
@@ -29,7 +35,7 @@ a:hover {
 
 #header {
     box-sizing: border-box;
-    height: 70px;
+    /*height: 70px;*/
     padding: 1rem;
     /*display: flex;*/
     align-items: center;
@@ -55,6 +61,7 @@ a:hover {
     gap: .5rem;
     margin: auto;
     justify-content: center;
+    background-color: #ceb0b2;
 }
 
 #menu a {
@@ -64,6 +71,18 @@ a:hover {
 
 #btn-mobile {
     display: none;
+}
+
+main {
+    background-color: #ceb0b2;
+    display: block;
+    margin: auto;
+}
+
+main img {
+    zoom: 20%;
+    display: block;
+    margin: auto;
 }
 
 @media (max-width: 600px) {
