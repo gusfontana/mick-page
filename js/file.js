@@ -1,5 +1,4 @@
 
-alert ('Feliz Dia dos Namorados!')
 
 const btnMobile = document.getElementById('btn-mobile')
 
