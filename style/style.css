@@ -194,7 +194,7 @@ body, ul {
 
 section span.drop {
     font-size: 200%;
-    font-family: 'hand-written';
+    font-family: 'hand-written', serif;
     color: var(--color01);
 }
 
